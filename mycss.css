@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#tictactoe {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    max-width: auto;
+    margin: auto;
+    background-color: #F7F0E4;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+#tictactoe table {
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-collapse: collapse;
+}
+
+#tictactoe td {
+    border: 2px solid #212529;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#tictactoe td:hover {
+    background-color: #dee2e6;
+    cursor: pointer;
+}
+
+#score-board {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#reset-button {
+    margin-top: 1rem;
+}
